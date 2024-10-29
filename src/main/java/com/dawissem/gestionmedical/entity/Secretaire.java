@@ -20,7 +20,8 @@ public class Secretaire extends Employe {
         this.id = id;
     }
 
-    public Long getId() {
+    @Override
+    public long getId() {
         return id;
     }
 }
